@@ -15,7 +15,8 @@
   }
 
   .home-banner {
-    background: url("assets/img/home-header-sm.png") no-repeat center / cover;
+    background: url("../assets/images/home-header-sm.png") no-repeat center /
+      cover;
   }
 
   .home-intro-flex .item {
@@ -25,33 +26,33 @@
   .classic-glass-flex {
     max-width: 336px;
     margin: 0 auto;
+
+    .item {
+      width: 100%;
+      padding: 0;
+    }
+    &:not(:last-child) {
+      margin-bottom: 24px;
+    }
   }
 
-  .classic-glass-flex .item {
-    width: 100%;
-    padding: 0;
-  }
+  .endorse-glass-flex {
+    .item {
+      width: 100%;
+    }
+    &:first-child {
+      margin-bottom: 24px;
+    }
 
-  .classic-glass-flex .item:not(:last-child) {
-    margin-bottom: 24px;
-  }
+    .endorse-glass-bg1 {
+      background: url("../assets/images/home-section4-1-sm.png") no-repeat
+        center / cover;
+    }
 
-  .endorse-glass-flex .item {
-    width: 100%;
-  }
-
-  .endorse-glass-flex .item:first-child {
-    margin-bottom: 24px;
-  }
-
-  .endorse-glass-flex .endorse-glass-bg1 {
-    background: url("assets/img/home-section4-1-sm.png") no-repeat center /
-      cover;
-  }
-
-  .endorse-glass-flex .endorse-glass-bg2 {
-    background: url("assets/img/home-section4-2-sm.png") no-repeat center /
-      cover;
+    .endorse-glass-bg2 {
+      background: url("../assets/images/home-section4-2-sm.png") no-repeat
+        center / cover;
+    }
   }
 
   .consumer-promotion-flex .item {
@@ -60,19 +61,21 @@
 
   .contact-form {
     max-width: 576px;
+
+    p {
+      font-size: inherit;
+    }
   }
 
-  .contact-form p {
-    font-size: inherit;
-  }
+  .sociallink {
+    a {
+      width: 40px;
+      height: auto;
+    }
 
-  .sociallink a {
-    width: 40px;
-    height: auto;
-  }
-
-  .sociallink li:not(:last-child) {
-    margin-right: 16px;
+    li:not(:last-child) {
+      margin-right: 16px;
+    }
   }
 
   .faq-content {
@@ -104,31 +107,32 @@
   .mainmenu {
     width: 100%;
     padding: 0;
+
+    li {
+      width: 50%;
+      text-align: center;
+      border: 1px solid #ffffff;
+    }
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+
+    a {
+      font-size: inherit;
+      display: block;
+      padding: 12px;
+    }
   }
 
-  .mainmenu li {
-    width: 50%;
-    text-align: center;
-    border: 1px solid #ffffff;
-  }
+  .home-banner {
+    .title01 {
+      font-size: 16px;
+    }
 
-  .mainmenu li:not(:last-child) {
-    margin-right: 0;
-  }
-
-  .mainmenu a {
-    font-size: inherit;
-    display: block;
-    padding: 12px;
-  }
-
-  .home-banner .title01 {
-    font-size: 16px;
-  }
-
-  .home-banner .slogan {
-    font-size: 24px;
-    margin-bottom: 8px;
+    .slogan {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
   }
 
   .home-banner-flex {
@@ -139,24 +143,26 @@
     width: 100%;
   }
 
-  .endorse-glass-flex img {
-    display: none;
-  }
+  .endorse-glass-flex {
+    img {
+      display: none;
+    }
 
-  .endorse-glass-flex p {
-    padding: 8px 0;
-  }
+    p {
+      padding: 8px 0;
+    }
 
-  .consumer-promotion-flex .item {
-    width: 100%;
+    .consumer-promotion-flex .item {
+      width: 100%;
+    }
   }
 
   .contact-form {
     max-width: 576px;
-  }
 
-  .contact-form .input-check {
-    margin-bottom: 24px;
+    .input-check {
+      margin-bottom: 24px;
+    }
   }
 
   .footer {
@@ -173,14 +179,14 @@
 
   .contact-info {
     padding-bottom: 24px;
-  }
 
-  .contact-info p {
-    font-size: inherit;
-  }
+    p {
+      font-size: inherit;
+    }
 
-  .contact-info .icon {
-    font-size: 18px;
+    .icon {
+      font-size: 18px;
+    }
   }
 
   .sociallink a {
@@ -195,13 +201,13 @@
 
   .faq-content {
     margin: 40px 0 64px 0;
-  }
 
-  .faq-content h2 {
-    font-size: 24px;
-  }
+    h2 {
+      font-size: 24px;
+    }
 
-  .faq-content h3 {
-    margin: 24px 0;
+    h3 {
+      margin: 24px 0;
+    }
   }
 }
