@@ -1,0 +1,207 @@
+/* 平板 */
+@media (max-width: 768px) {
+  .container {
+    /* 768 - 36*2 + 12*2 */
+    max-width: 720px;
+  }
+
+  .logo {
+    width: 128px;
+    padding: 0 24px;
+  }
+
+  .mainmenu {
+    padding: 25px 24px;
+  }
+
+  .home-banner {
+    background: url("assets/img/home-header-sm.png") no-repeat center / cover;
+  }
+
+  .home-intro-flex .item {
+    width: 50%;
+  }
+
+  .classic-glass-flex {
+    max-width: 336px;
+    margin: 0 auto;
+  }
+
+  .classic-glass-flex .item {
+    width: 100%;
+    padding: 0;
+  }
+
+  .classic-glass-flex .item:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  .endorse-glass-flex .item {
+    width: 100%;
+  }
+
+  .endorse-glass-flex .item:first-child {
+    margin-bottom: 24px;
+  }
+
+  .endorse-glass-flex .endorse-glass-bg1 {
+    background: url("assets/img/home-section4-1-sm.png") no-repeat center /
+      cover;
+  }
+
+  .endorse-glass-flex .endorse-glass-bg2 {
+    background: url("assets/img/home-section4-2-sm.png") no-repeat center /
+      cover;
+  }
+
+  .consumer-promotion-flex .item {
+    width: 50%;
+  }
+
+  .contact-form {
+    max-width: 576px;
+  }
+
+  .contact-form p {
+    font-size: inherit;
+  }
+
+  .sociallink a {
+    width: 40px;
+    height: auto;
+  }
+
+  .sociallink li:not(:last-child) {
+    margin-right: 16px;
+  }
+
+  .faq-content {
+    margin: 80px 0;
+  }
+}
+
+/* 手機 */
+@media (max-width: 375px) {
+  .container {
+    /* 375 - 27 + 12*2 */
+    max-width: 373px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+
+  .logo {
+    width: 104px; /* 104 - 12*2 = 80*/
+    padding: 16px 12px;
+  }
+
+  .ptb {
+    padding: 40px 0;
+  }
+
+  .mainmenu {
+    width: 100%;
+    padding: 0;
+  }
+
+  .mainmenu li {
+    width: 50%;
+    text-align: center;
+    border: 1px solid #ffffff;
+  }
+
+  .mainmenu li:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .mainmenu a {
+    font-size: inherit;
+    display: block;
+    padding: 12px;
+  }
+
+  .home-banner .title01 {
+    font-size: 16px;
+  }
+
+  .home-banner .slogan {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+
+  .home-banner-flex {
+    height: 396px;
+  }
+
+  .home-intro-flex .item {
+    width: 100%;
+  }
+
+  .endorse-glass-flex img {
+    display: none;
+  }
+
+  .endorse-glass-flex p {
+    padding: 8px 0;
+  }
+
+  .consumer-promotion-flex .item {
+    width: 100%;
+  }
+
+  .contact-form {
+    max-width: 576px;
+  }
+
+  .contact-form .input-check {
+    margin-bottom: 24px;
+  }
+
+  .footer {
+    padding: 24px 0;
+  }
+
+  .footer-flex {
+    margin-bottom: 16px;
+  }
+
+  .footnav {
+    display: none;
+  }
+
+  .contact-info {
+    padding-bottom: 24px;
+  }
+
+  .contact-info p {
+    font-size: inherit;
+  }
+
+  .contact-info .icon {
+    font-size: 18px;
+  }
+
+  .sociallink a {
+    width: 24px;
+    height: auto;
+  }
+
+  .copyright-flex li {
+    width: 100%;
+    padding-top: 8px;
+  }
+
+  .faq-content {
+    margin: 40px 0 64px 0;
+  }
+
+  .faq-content h2 {
+    font-size: 24px;
+  }
+
+  .faq-content h3 {
+    margin: 24px 0;
+  }
+}
