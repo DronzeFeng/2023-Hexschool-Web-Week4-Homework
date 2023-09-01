@@ -81,7 +81,7 @@ a {
 /* Site */
 .home-banner {
   text-align: right;
-  background: url("@/assets/images/home-header.png") no-repeat center / cover;
+  background: url("../images/home-header.png") no-repeat center / cover;
 
   .home-banner-flex {
     height: 787px;
@@ -128,8 +128,7 @@ a {
   }
 
   @media (max-width: 768px) {
-    background: url("@/assets/images/home-header-sm.png") no-repeat center /
-      cover;
+    background: url("../images/home-header-sm.png") no-repeat center / cover;
   }
 }
 
@@ -204,7 +203,7 @@ a {
 }
 
 .endorse-glass {
-  background: url("@/assets/images/index-bg.png") no-repeat center / cover;
+  background: url("../images/index-bg.png") no-repeat center / cover;
 
   .endorse-glass-flex {
     h2 {
@@ -239,23 +238,21 @@ a {
 
     .endorse-glass-bg1 {
       height: 240px;
-      background: url("@/assets/images/home-section4-1.png") no-repeat center /
-        cover;
+      background: url("../images/home-section4-1.png") no-repeat center / cover;
 
       @media (max-width: 768px) {
-        background: url("@/assets/images/home-section4-1-sm.png") no-repeat
-          center / cover;
+        background: url("../images/home-section4-1-sm.png") no-repeat center /
+          cover;
       }
     }
 
     .endorse-glass-bg2 {
       height: 240px;
-      background: url("@/assets/images/home-section4-2.png") no-repeat center /
-        cover;
+      background: url("../images/home-section4-2.png") no-repeat center / cover;
 
       @media (max-width: 768px) {
-        background: url("@/assets/images/home-section4-2-sm.png") no-repeat
-          center / cover;
+        background: url("../images/home-section4-2-sm.png") no-repeat center /
+          cover;
       }
     }
   }
