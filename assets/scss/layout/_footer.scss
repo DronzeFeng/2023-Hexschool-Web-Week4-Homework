@@ -1,52 +1,128 @@
 .footer {
   color: #ffffff;
-  background: #aa0601;
   padding: 48px 0 32px 0;
-}
 
-.footer a {
-  color: #ffffff;
-}
+  a {
+    color: #ffffff;
 
-.footer-flex {
-  border-bottom: 1px solid #ffffff;
-  justify-content: space-between;
-  margin-bottom: 32px;
-}
+    &:hover {
+      color: #650300;
+    }
+  }
 
-.footnav {
-  padding: 8px 0;
-  margin-bottom: 24px;
-}
+  .footer-flex {
+    border-bottom: 1px solid #ffffff;
+    justify-content: space-between;
+    margin-bottom: 32px;
 
-.footnav li:not(:last-child),
-.policy li:not(:last-child) {
-  margin-right: 48px;
-}
+    @media (max-width: 375px) {
+      margin-bottom: 16px;
+    }
+  }
 
-.contact-info {
-  padding-bottom: 32px;
-}
+  .footnav {
+    margin-bottom: 24px;
 
-.contact-info p {
-  font-size: 36px;
-}
+    li {
+      a {
+        display: block;
+        padding: 8px 24px;
+      }
+      &:first-child {
+        a {
+          padding-left: 0;
+        }
+      }
+    }
 
-.contact-info .icon {
-  font-size: 36px;
-  /* text-align: middle; */
-}
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
 
-.sociallink li:not(:last-child) {
-  margin-right: 32px;
-}
+    @media (max-width: 375px) {
+      display: none;
+    }
+  }
 
-.sociallink a {
-  width: 48px;
-  height: auto;
-  display: inline-block;
-}
+  .contact-info {
+    padding-bottom: 32px;
 
-.copyright-flex {
-  justify-content: space-between;
+    p {
+      font-size: 2.25rem;
+      word-break: break-all;
+      display: flex;
+      align-items: center;
+
+      @media (max-width: 375px) {
+        font-size: inherit;
+      }
+    }
+
+    .icon {
+      font-size: 2.25rem;
+      margin-right: 20px;
+
+      @media (max-width: 375px) {
+        font-size: 1.125rem;
+        margin-right: 10px;
+      }
+    }
+
+    @media (max-width: 375px) {
+      padding-bottom: 24px;
+    }
+  }
+
+  .sociallink li {
+    a {
+      width: 48px;
+      display: block;
+      margin-right: 32px;
+
+      @media (max-width: 768px) {
+        width: 40px;
+        margin-right: 16px;
+      }
+
+      @media (max-width: 375px) {
+        width: 24px;
+      }
+    }
+    &:last-child {
+      a {
+        margin-right: 0;
+
+        @media (max-width: 768px) {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .copyright-flex {
+    justify-content: space-between;
+  }
+
+  .policy {
+    li {
+      a {
+        display: block;
+        padding: 8px 24px;
+
+        @media (max-width: 375px) {
+          padding: 8px 0 0 0;
+        }
+      }
+
+      &:last-child {
+        a {
+          padding-right: 0;
+        }
+      }
+    }
+
+    @media (max-width: 375px) {
+      flex-direction: column;
+    }
+  }
 }
